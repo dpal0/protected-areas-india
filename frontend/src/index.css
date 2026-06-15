@@ -1,0 +1,40 @@
+* { margin: 0; box-sizing: border-box; }
+html, body, #root { height: 100%; }
+
+:root {
+  --green-900: #0a3d2e;
+  --green-800: #0f6e56;
+  --green-700: #1d9e75;
+  --green-600: #27c491;
+  --green-200: #a8dfc7;
+  --green-100: #d1f0e4;
+  --green-50: #f0faf5;
+
+  --blue-700: #1565c0;
+  --blue-400: #4896c8;
+  --blue-100: #dbeafe;
+  --blue-50: #eff6ff;
+
+  --teal-700: #00695c;
+  --teal-400: #00897b;
+  --teal-100: #ccfbf1;
+  --teal-50: #f0fdfa;
+
+  --surface: #ffffff;
+  --surface-2: #f8fdfb;
+  --text-primary: #1a2e25;
+  --text-secondary: #4a7a67;
+  --text-muted: #8ab5a3;
+  --border: #d1e8df;
+  --border-strong: #a8d4c1;
+
+  --font-sans: system-ui, 'Segoe UI', Roboto, sans-serif;
+
+  --shadow-sm: 0 1px 3px rgba(10, 61, 46, 0.08);
+  --shadow-md: 0 4px 12px rgba(10, 61, 46, 0.12);
+  --shadow-lg: 0 8px 24px rgba(10, 61, 46, 0.18);
+
+  font-family: var(--font-sans);
+  color: var(--text-primary);
+  -webkit-font-smoothing: antialiased;
+}
